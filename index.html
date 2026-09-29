@@ -1231,6 +1231,38 @@
     .opening-kicker { color: #e0cc8b; letter-spacing: .13em; }
     .opening-art h2 { font-size: clamp(48px, 7vw, 82px); font-weight: 500; letter-spacing: -.045em; text-shadow: 0 3px 28px rgba(5,15,9,.68); }
     .opening-art h2 em { color: #e0ca79; }
+    body { font-family: var(--sans); font-size: 15px; line-height: 1.7; }
+    h1, h2, h3, .opening-art h2, .atlas-mode-title, .term-title, .visual-card p {
+      font-family: var(--serif);
+      font-optical-sizing: auto;
+      text-wrap: pretty;
+    }
+    h1, h2 { font-weight: 500; }
+    h1 { letter-spacing: -.05em; line-height: .99; }
+    h2 { letter-spacing: -.035em; line-height: 1.12; }
+    h3 { font-weight: 500; letter-spacing: -.018em; line-height: 1.25; }
+    .hero-copy, .lead, .body-copy, .opening-content p, .atlas-heading > p, .atlas-view-description {
+      font-family: var(--sans);
+      font-optical-sizing: auto;
+      letter-spacing: -.012em;
+    }
+    .eyebrow, .chapter-index, .practice-tag, .atlas-search-wrap label, .atlas-filter-heading, .atlas-meta, .term-category, .term-status, .opening-edition, .opening-kicker, .opening-label, .opening-lenses, .opening-scroll-cue, .visual-card small, .sources summary {
+      font-family: var(--mono);
+      font-optical-sizing: auto;
+      font-weight: 400;
+    }
+    .top-links, .environment-picker summary, .environment-choice, .button, .text-link, .stage-choice, .atlas-chip, .term-save, .frequency-controls, .frequency-reset {
+      font-family: var(--sans);
+      font-optical-sizing: auto;
+    }
+    .wordmark { font-family: var(--sans); font-weight: 700; letter-spacing: .11em; }
+    .term-title { font-size: 23px; font-weight: 500; letter-spacing: -.025em; }
+    .atlas-mode-title { font-size: 27px; font-weight: 500; letter-spacing: -.02em; }
+    .stage-intro h2, .atlas-view-heading { font-family: var(--serif); font-weight: 500; letter-spacing: -.025em; }
+    .frequency-value output, .fact-number, .reflection-output, .pullquote { font-family: var(--serif); font-optical-sizing: auto; }
+    .term-preview, .term-body, .term-related, .term-citations, .term-lens-note { font-family: var(--sans); }
+    .opening-art h2 { letter-spacing: -.05em; line-height: .98; }
+    .opening-content p { line-height: 1.75; }
     .opening-content { background: linear-gradient(115deg, rgba(143,189,152,.07), transparent 65%), #132119; }
     .opening-content { animation: intro-copy-arrive .8s .12s cubic-bezier(.2,.7,.25,1) both; }
     .opening-content p { color: #d8e0d5; }
